@@ -1,0 +1,135 @@
+body {
+  background-image: url("https://lh3.googleusercontent.com/3mnUrnnkx2yFc7uR8rmaMur-ZipU_8XiItlEA-MtuWOA3ILPutYa73ef1M8rEddAzpevtMep7DaPi8cYV-5mABgFMBYadIY=s1200");
+  background-color: rgb(26, 174, 198);
+  background-size: 1550px 800px;
+  font-family: "Sans-serif", Arial, serif;
+}
+
+#container {
+  margin-top: 70px;
+  background-color: white;  
+  opacity: 0.93;
+  padding: 50px;
+  display: inline-block;
+  border-radius: 25px;
+  border: 0px solid;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 260px; /* Need a specific value to work */
+}
+
+.textField {
+    border-radius: 25px;
+    border: 2px solid #00BCD4;
+    padding: 12px; 
+    width: 200px;
+    height: 14px;    
+    margin: 4px; 
+}
+
+.myHeader {
+  color: #00BCD4;
+  font-weight: 700;
+  margin-bottom: 7px;
+  font-size:25px;
+}
+
+.myButton {
+  font-weight: 700;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  background-color: #03A9F4;
+  border-radius: 25px;
+  border: 0px solid;
+}
+.myButton:hover {
+  background-color: #00BCD4;
+  cursor: pointer;
+}
+
+
+#registerFieldsCont {
+  display: none;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 2px solid #2196F3;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+
+.submitBtn {
+  display: none;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+
+/* signin-status Tip Styles*/
+.signin-status {
+  /* font */
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 20px;
+  /* background */
+  background-color: #2cd312;
+  border: 1px solid #3ba830;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  /* positioning */
+  float: left;
+  position: relative;
+  padding: 3px 10px 3px;
+  top:80px;
+  margin-left: 680px; /* distance between error tip and element it points to */
+}
+
+.registerWarnings {
+  background-color: #F44336;
+  display: inline-block;
+  margin: 3px;
+  padding: 5px;
+  border: 0px solid;
+  border-radius: 8px;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.tool_tip_name_err {
+  top: 250px;
+}
+
+.tool_tip_pwd_err {
+  top: 300px;
+}
+
+.tool_tip_name_signup {
+  top: 500px;
+}
