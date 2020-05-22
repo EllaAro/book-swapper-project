@@ -18,4 +18,4 @@ In the newer, narrower sense, collaborative filtering is a method of making auto
 ## implementation
 * The application was written in `PHP` as the back-end server. 
 * The database used is a relational `MySQL` database.
-* Pure `Valinda Javascript` ,`JQuery` and `CSS` were used as the front-end client.
+* Pure `Vanilla Javascript` ,`JQuery` and `CSS` were used as the front-end client.
