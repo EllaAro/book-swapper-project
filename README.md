@@ -14,3 +14,8 @@ Once a user decides to accept an offered book on the website, he recives a speci
 The main algorithm the application is based on is the `Collaborative Filtering` Algorithm.
 Collaborative filtering (CF) is a technique used by recommender systems. Collaborative filtering has two senses, a narrow one and a more general one.
 In the newer, narrower sense, collaborative filtering is a method of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from many users (collaborating). The underlying assumption of the collaborative filtering approach is that if a person A has the same opinion as a person B on an issue, A is more likely to have B's opinion on a different issue than that of a randomly chosen person. 
+
+## implementation
+* The application was written in `PHP` as the back-end server. 
+* The database used is a relational `MySQL` database.
+* Pure `Valinda Javascript` ,`JQuery` and `CSS` were used as the front-end client.
