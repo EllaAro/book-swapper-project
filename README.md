@@ -19,3 +19,4 @@ In the newer, narrower sense, collaborative filtering is a method of making auto
 * The application was written in `PHP` as the back-end server. 
 * The database used is a relational `MySQL` database.
 * Pure `Vanilla Javascript` ,`JQuery` and `CSS` were used as the front-end client.
+* Usage of `Google Books API` for retrieving and adding books which do not exist in the DB. 
